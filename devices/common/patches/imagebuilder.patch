@@ -51,7 +51,7 @@
  	$(MAKE) -s build_image
  	$(MAKE) -s json_overview_image_info
  	$(MAKE) -s checksum
-+	rm -rf $(KERNEL_BUILD_DIR)/tmp
++	rm -rf $(KERNEL_BUILD_DIR)/root.*
  
  _call_manifest: FORCE
  	rm -rf $(TARGET_DIR)

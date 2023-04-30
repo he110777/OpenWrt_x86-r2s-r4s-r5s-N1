@@ -28,7 +28,7 @@ rm -rf feeds/packages/net/xtables-addons package/feeds/packages/{openvswitch,ksm
 
 rm -rf package/kernel/exfat
 
-rm -rf devices/common/patches/{glinet,imagebuilder.patch,fix.patch,iptables.patch,targets.patch,kernel-defaults.patch,disable_flock.patch}
+rm -rf devices/common/patches/{glinet,fix.patch,iptables.patch,targets.patch,kernel-defaults.patch,disable_flock.patch}
 
 rm -rf toolchain/musl
 

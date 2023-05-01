@@ -33,7 +33,7 @@
  endif
  
  	$(CP) -L $(TOPDIR)/target/linux $(PKG_BUILD_DIR)/target/
-+	$(CP) -L $(KERNEL_BUILD_DIR)/tmp/*initramfs* $(IB_KDIR)/tmp/
++	$(CP) -L $(KERNEL_BUILD_DIR)/tmp/*initramfs* $(IB_KDIR)/tmp/ || true
  	if [ -d $(TOPDIR)/staging_dir/host/lib/grub ]; then \
  		$(CP) $(TOPDIR)/staging_dir/host/lib/grub/ $(PKG_BUILD_DIR)/staging_dir/host/lib; \
  	fi
